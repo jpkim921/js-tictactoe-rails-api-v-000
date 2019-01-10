@@ -87,7 +87,7 @@ $(document).ready(function() {
 }); 
  
  
- var clearBoard = (click) {
+ var clearBoard = (click) => {
    $('td').empty();
    turn = 0;
    
