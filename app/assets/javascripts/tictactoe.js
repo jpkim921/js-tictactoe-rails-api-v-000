@@ -86,3 +86,9 @@ $(document).ready(function() {
   attachListeners();
 }); 
  
+ 
+ var clearBoard = (click) {
+   $('td').empty();
+   turn = 0;
+   
+ }
